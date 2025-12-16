@@ -1,0 +1,10 @@
+services:
+  birthday-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mom-birthday-site
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
