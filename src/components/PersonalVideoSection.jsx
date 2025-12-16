@@ -17,6 +17,16 @@ const PersonalVideoSection = () => {
       src: '/assets/gifs/personal2.mp4',
       poster: '/assets/thumbnails/personal2.jpg',
     },
+    {
+      id: 3,
+      src: '/assets/gifs/personal3.mp4',
+      poster: '/assets/thumbnails/personal3.jpg',
+    },
+    {
+      id: 4,
+      src: '/assets/gifs/personal4.mp4',
+      poster: '/assets/thumbnails/personal4.jpg',
+    },
   ];
 
   const handleMouseEnter = (index) => {
